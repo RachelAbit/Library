@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+div {
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.text{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: orangered;
+    padding-top: 5px;
+}
+dialog{
+    padding: 20px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+dialog .close{
+    display: block;
+    margin-left: auto;
+    padding: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+dialog input{
+    padding: 10px;
+    outline: none;
+}
+dialog .add{
+    display: block;
+    margin-top: 20px;
+    width: 390px;
+    background-color: orangered;
+    padding: 12px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+}
+.add-book{
+    padding: 16px 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
