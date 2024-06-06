@@ -17,13 +17,22 @@
     </header>
 
     <main>
-        <dialog>
-            <button class="close" autofocus>X</button>
-            <input type="text" name="book" id="book" placeholder="Book name">
-            <input type="text" name="author" id="author" placeholder="Author's name">
-            <button class="add">Add</button>
-          </dialog>
-          <button class="add-book">Add A Book</button>
+           <div class="container">
+
+                <div class="form">
+                    <input type="text" class="book" name="book" id="book" placeholder="Book Name"> <br>
+                    <input type="text" class="author" name="author" id="author" placeholder="Author's name">
+                    <input type="number" class="pages" name="pages" id="pages" placeholder='Number of pages'>
+                    <br>
+                    <button class="btn1" onclick="addToBook()">Add</button>
+                    
+                </div>
+
+                <div class="contents"></div>
+
+           </div>
+
+           
     </main>
 </body>
 </html>

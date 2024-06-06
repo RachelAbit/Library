@@ -23,42 +23,37 @@ div {
     color: orangered;
     padding-top: 5px;
 }
-dialog{
-    padding: 20px;
-    padding-bottom: 30px;
-    margin: auto;
+
+.form{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
 }
-dialog .close{
-    display: block;
-    margin-left: auto;
-    padding: 5px;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-    margin-bottom: 10px;
-}
-dialog input{
+.form input {
     padding: 10px;
     outline: none;
 }
-dialog .add{
-    display: block;
+
+.pages {
     margin-top: 20px;
-    width: 390px;
-    background-color: orangered;
-    padding: 12px;
-    border: none;
-    color: white;
-    font-weight: bold;
-    font-size: 1em;
 }
-.add-book{
-    padding: 16px 15px;
-    margin-top: 20px;
-    margin-left: 20px;
-    color: white;
+
+.btn1{
+    padding: 10px;
     background-color: orangered;
     border: none;
-    border-radius: 5px;
+    font-weight: bold;
+    color: white;
     cursor: pointer;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
 }
