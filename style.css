@@ -23,6 +23,11 @@ div {
     color: orangered;
     padding-top: 5px;
 }
+span{
+    color: rgb(204, 204, 204);
+    font-size: 14px;
+    margin-left: 20px;
+}
 
 .form{
     width: 250px;
@@ -39,11 +44,9 @@ div {
     padding: 10px;
     outline: none;
 }
-
 .pages {
     margin-top: 20px;
 }
-
 .btn1{
     padding: 10px;
     background-color: orangered;
@@ -53,7 +56,15 @@ div {
     cursor: pointer;
     border-radius: 5px;
 }
-
 .container{
     display: flex;
+    position: fixed;
+}
+.contents {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-2{
+    position: absolute;
+    left: 25%;
 }
