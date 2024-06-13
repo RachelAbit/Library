@@ -24,6 +24,7 @@ const card = (book, author, pages) => {
    pages_.value = ''
    
     let cards = document.createElement('div');
+    cards.id = 'cards_';
     let book_title = document.createElement('h3');
     let author_name = document.createElement('p');
     let pages_num = document.createElement('p');
@@ -78,9 +79,17 @@ const card = (book, author, pages) => {
     contents.append(cards);
     library.push(books);
     console.log(library)
-   
+
+    remove_btn.addEventListener('click', () => {
+        let remove_cards = document.getElementById('cards_');
+        if(remove_cards){
+          remove_cards.remove();
+          library.pop();
+        }
+    })
 }
 
 function addToBook(){
   card();
 }
+
