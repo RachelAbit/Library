@@ -5,33 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Library</title>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js" defer></script>
+    
 </head>
 <body>
-    <header>
-        <nav>
-            <div>
-                <p class="text">My Library</p>
-            </div>
-        </nav>
-    </header>
 
     <main>
-           <div class="container">
-
-                <div class="form">
-                    <input type="text" class="book" name="book" id="book" placeholder="Book Name"> <br>
-                    <input type="text" class="author" name="author" id="author" placeholder="Author's name">
-                    <input type="number" class="pages" name="pages" id="pages" placeholder='Number of pages'>
-                    <br>
-                    <button class="btn1" onclick="addToBook()">Add</button>
-                    
+        <section class="container">
+            <section class="bx-1">
+                <form action="">
+                    <input type="text" placeholder="Name of Author" id="author_name" name="author">
+                    <input type="text" name="title" id="book_title" placeholder="Book Title">
+                    <input type="number" name="pages" id="book_pages" placeholder="Book Pages">
+                </form>
+                <div class="button-container">
+                    <button type="button" id="btn">Add</button>
+                    <small>Created by Rachel Abit</small>
                 </div>
-           </div>
-           <div class="container-2">
+            </section>
+            <section class="bx-2">
+                <h1>My Library</h1>
+            </section>
+            <section class="bx-3">
                 <div class="contents"></div>
-           </div>    
+            </section>
+        </section>    
     </main>
-    
+
+    <script src="main.js" ></script>
+
 </body>
 </html>
