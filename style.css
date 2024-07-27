@@ -6,10 +6,7 @@
 body{
     min-height: 100vh;
 }
-section{
-    /* background-color: rgb(149, 149, 226); */
-    /* border: 1px solid black; */
-}
+
 .container{
     display: grid;
     grid-template-columns: 300px 1fr ;
