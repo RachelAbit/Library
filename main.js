@@ -17,8 +17,19 @@ class Library {
    `;
    btn_div.innerHTML = `
     <input type="checkbox"> &nbsp;Read
-    <button> Delete </button>
+    <button id="delete"> Delete </button>
    `
+   
+   const button_del = btn_div.querySelector('#delete');
+   button_del.addEventListener('click', () => {
+      let remove_cards = document.querySelector('.cards');
+      if(remove_cards){
+        remove_cards.remove();
+        library.pop();
+      }
+      console.log(library)
+   })
+
    card.appendChild(btn_div);
    main.appendChild(card);
     
