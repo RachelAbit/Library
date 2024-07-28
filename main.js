@@ -1,4 +1,4 @@
-class Library {
+class Book {
   constructor(author_name, bookTitle, bookPages){
     this.author_name = author_name;
     this.bookTitle = bookTitle;
@@ -46,7 +46,7 @@ btn.addEventListener('click', ()=>{
      let getBookT = document.getElementById('book_title').value;
      let getBookP = document.getElementById('book_pages').value;
 
-     const newLibrary = new Library(getAuthr, getBookT, getBookP);
+     const newLibrary = new Book (getAuthr, getBookT, getBookP);
 
      library.push(newLibrary);
      newLibrary.displayCard();
